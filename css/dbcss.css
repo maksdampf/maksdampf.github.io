@@ -1,51 +1,51 @@
 
 /* Headlines */
 
-h1 { 
-	color: #F90B6D; 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 2.5em; 
-	font-weight: lighter; 
-	line-height: 0.8em; 
+h1 {
+	color: #F90B6D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5em;
+	font-weight: lighter;
+	line-height: 0.8em;
 	margin-top: 2em;
 	margin-left: 2em;
 	margin-bottom: 0em;
 }
 
-h2 { 
-	color: #222; 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 1.25em; 
-	font-weight: lighter; 
-	line-height: 0.0em; 
+h2 {
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: lighter;
+	line-height: 0.0em;
 	margin-left: 19.8em;
 	margin-bottom: 2em;
 }
 
-h3 { 
-	color: #222; 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 1.25em; 
-	font-weight: lighter; 
-	line-height: 1em; 
+h3 {
+	color: #222;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: lighter;
+	line-height: 1em;
 	margin-bottom: 1em;
 	margin-top: 3em;
 }
-	
-h4 { 
-	color: #5d5d5d; 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 1.0em; 
-	font-weight: lighter; 
-	line-height: 1.2em; 
-	margin: auto;	
+
+h4 {
+	color: #5d5d5d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.0em;
+	font-weight: lighter;
+	line-height: 1.2em;
+	margin: auto;
 }
 
-h5 { 
-	color: #222; 
-	font-size: 1.0em; 
-	font-weight: normal; 
-	line-height: 1.7em; 
+h5 {
+	color: #222;
+	font-size: 1.0em;
+	font-weight: normal;
+	line-height: 1.7em;
     margin-right: 50%;
 	margin-bottom: 0.75em;
 	margin-left: 0.75em;
@@ -53,11 +53,11 @@ h5 {
 	text-indent: 1em;
 }
 
-h6 { 
-	color: #fff; 
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 1.25em; 
-	font-weight: lighter; 
+h6 {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: lighter;
 	line-height: 0.8em;
 	margin-left: 1em;
 }
@@ -224,10 +224,10 @@ p {
 /* Chapters content, children styles */
 
 .awardstext{
-	font-size: 0.85em; 
-	color: #5d5d5d; 
-	font-weight: normal; 
-	line-height: 1.2em; 	
+	font-size: 0.85em;
+	color: #5d5d5d;
+	font-weight: normal;
+	line-height: 1.2em;
 	width: 20%;
 	float: left;
 	padding: 0.1em;
@@ -249,18 +249,18 @@ p {
 	width: 100%;
 	float: left;
 	position: absolute;
-	
+
 }
 
 .authorportrait2block {
 	position: relative;
 	background-color:#ddd;
-	padding-bottom: 500em;
-  	margin-bottom: -500em;
+	padding-bottom: 40em;
+  	margin-bottom: -40em;
   	overflow: hidden;
   	width: 50%;
-  	float: left;  	
-  	
+  	float: left;
+
 }
 
 .authorportrait2block h6 {
@@ -268,7 +268,7 @@ p {
 	width: 100%;
 	z-index: 100;
 	top: 1vh;
-	
+
 }
 
 .contactblock {
@@ -283,7 +283,7 @@ p {
   	overflow: hidden;
 }
 .socialmedia {
-	color: #f90b6d; 
+	color: #f90b6d;
 	font-size: 2em;
 	text-align: center;
 	letter-spacing: 1em;
@@ -293,8 +293,8 @@ p {
 /* Chapter Navigation links */
 
 .navworks {
- color: #f90b6d; 
- font-family: 'Open Sans', sans-serif; 
+ color: #f90b6d;
+ font-family: 'Open Sans', sans-serif;
  font-size: 1.25em;
  position: fixed;
  right:0em;
@@ -305,8 +305,8 @@ p {
 }
 
 .navabout {
- color: #f90b6d; 
- font-family: 'Open Sans', sans-serif; 
+ color: #f90b6d;
+ font-family: 'Open Sans', sans-serif;
  font-size: 1.25em;
  position: fixed;
  right:0em;
@@ -317,9 +317,9 @@ p {
 }
 
 .navreferences {
- color: #f90b6d; 
+ color: #f90b6d;
  font-family: 'Open Sans', sans-serif;
- font-size: 1.25em; 
+ font-size: 1.25em;
  position: fixed;
  right:0em;
  padding: 0.6em;
@@ -329,9 +329,9 @@ p {
 }
 
 .navawards {
- color: #f90b6d; 
+ color: #f90b6d;
  font-family: 'Open Sans', sans-serif;
- font-size: 1.25em; 
+ font-size: 1.25em;
  position: fixed;
  right:0em;
  padding: 0.6em;
@@ -342,8 +342,8 @@ p {
 
 
 .navcontact {
- color: #f90b6d; 
- font-family: 'Open Sans', sans-serif; 
+ color: #f90b6d;
+ font-family: 'Open Sans', sans-serif;
  font-size: 1.25em;
  position: fixed;
  right:0em;
@@ -374,7 +374,7 @@ p {
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	background: #252323 url(../img/loading.svg) no-repeat 50% 75px;
+	background: #fff url(../img/loading.svg) no-repeat 50% 75px;
 	background-size: 60px auto;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
@@ -417,7 +417,7 @@ p {
 	display: flex;
 	-ms-flex-pack: center;
 	-webkit-justify-content: center;
-	 justify-content: center; 
+	 justify-content: center;
 	-ms-flex-line-pack: center;
 	/* -webkit-align-content: center; */
 	align-content: center;
@@ -673,7 +673,7 @@ p {
 
 
 @media screen and (max-width: 36em) {
-	
+
 	h1 {
 		font-size: 1.5em;
 	}
@@ -710,14 +710,14 @@ p {
 		margin-right: 1em;
 	}
 	.awardstext{
-	font-size: 0.75em; 
+	font-size: 0.75em;
 	}
 	.banner {
 	height: 10em;
 	}
 	.socialmedia {
 		letter-spacing: 0.5em;
-		
+
 	}
 }
 
@@ -735,8 +735,8 @@ p {
 	h2 {
 		font-size: 1.5em;
 	}
-	h3 {  
-		font-size: 1.5em; 
+	h3 {
+		font-size: 1.5em;
 	}
 	h4 {
 		font-size: 1.5em;
@@ -756,11 +756,11 @@ p {
  	width: 60%;
 	}
 	.awardstext{
-	font-size: 1.0em; 
+	font-size: 1.0em;
 	}
 	.refimg {
 		width: 250px;
-	}	
+	}
 	.description--preview {
 		padding: 2em;
 	}
