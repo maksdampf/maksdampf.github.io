@@ -140,24 +140,6 @@ p {
 /* Chapters boxes, full width */
 
 
-
-.banner {
- 	background-image: url(../img/banner2m.jpg);
- 	background-size: 100% auto;
- 	background-repeat: no-repeat;
-	height: 25em;
- 	width: 100%;
-    display: table;
-    margin-bottom: 2em;
-
- 	/*width: 100%;
- 	height: auto;
- 	margin-top: 10em;
- 	margin-bottom: 0;
- 	/* padding-top: 66.64%;  (img-height / img-width * container-width) */
-                /* (853 / 1280 * 100) */
-}
-
 .about {
  width: 100%;
  margin-top: 10em;
@@ -191,22 +173,6 @@ p {
  padding: 0.5em;
  background-color:#fff;
  overflow: hidden;
-}
-
-
-.getintouch {
- 	background-image: url(../img/banner2m.jpg);
- 	background-size: cover;
- 	background-repeat: no-repeat;
-	height: 45vw;
-  	display: block;
- 	width: 100vw;
- 	/*width: 100%;
- 	height: auto;
- 	margin-top: 10em;
- 	margin-bottom: 0;
- 	/* padding-top: 66.64%;  (img-height / img-width * container-width) */
-                /* (853 / 1280 * 100) */
 }
 
 
