@@ -1,32 +1,33 @@
 
 /* Headlines */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.02em;
+	color: #222;
+}
 
 h1 {
 	color: #F90B6D;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 2.5em;
-	font-weight: lighter;
-	line-height: 0.8em;
+	font-size: 2.45em;
+	line-height: 0.85em;
 	margin-top: 2em;
 	margin-left: 2em;
 	margin-bottom: 0em;
 }
 
+.h1shortspaces {
+	letter-spacing: -0.01em;
+}
+
 h2 {
-	color: #222;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
-	font-weight: lighter;
 	line-height: 0.0em;
 	margin-left: 19.8em;
 	margin-bottom: 2em;
 }
 
 h3 {
-	color: #222;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
-	font-weight: lighter;
 	line-height: 1em;
 	margin-bottom: 1em;
 	margin-top: 3em;
@@ -34,19 +35,15 @@ h3 {
 
 h4 {
 	color: #5d5d5d;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 1.0em;
-	font-weight: lighter;
 	line-height: 1.2em;
 	margin: auto;
 }
 
 h5 {
-	color: #222;
 	font-size: 1.0em;
-	font-weight: normal;
-	line-height: 1.7em;
-    margin-right: 50%;
+	line-height: 1.75em;
+  margin-right: 50%;
 	margin-bottom: 0.75em;
 	margin-left: 0.75em;
 	margin-top: 0.75em;
@@ -55,9 +52,7 @@ h5 {
 
 h6 {
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
-	font-weight: lighter;
 	line-height: 0.8em;
 	margin-left: 1em;
 }
@@ -67,7 +62,8 @@ h6 {
 /* Global styles */
 
 body {
-	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: 'Nunito Sans', sans-serif;
+	letter-spacing: 0.01em;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
@@ -258,64 +254,33 @@ p {
 
 /* Chapter Navigation links */
 
+.navworks, .navabout, .navreferences, .navawards, .navcontact {
+	color: #f90b6d;
+  font-size: 1.25em;
+  position: fixed;
+  right:0em;
+  padding: 0.6em;
+  width: 8em;
+  background-color:#eee;
+}
+
 .navworks {
- color: #f90b6d;
- font-family: 'Open Sans', sans-serif;
- font-size: 1.25em;
- position: fixed;
- right:0em;
- padding: 0.6em;
- width: 8em;
- background-color:#eee;
  bottom:17em;
 }
 
 .navabout {
- color: #f90b6d;
- font-family: 'Open Sans', sans-serif;
- font-size: 1.25em;
- position: fixed;
- right:0em;
- padding: 0.6em;
- width: 8em;
- background-color:#eee;
  bottom:13em;
 }
 
 .navreferences {
- color: #f90b6d;
- font-family: 'Open Sans', sans-serif;
- font-size: 1.25em;
- position: fixed;
- right:0em;
- padding: 0.6em;
- width: 8em;
- background-color:#eee;
  bottom:9em;
 }
 
 .navawards {
- color: #f90b6d;
- font-family: 'Open Sans', sans-serif;
- font-size: 1.25em;
- position: fixed;
- right:0em;
- padding: 0.6em;
- width: 8em;
- background-color:#eee;
  bottom:5em;
 }
 
-
 .navcontact {
- color: #f90b6d;
- font-family: 'Open Sans', sans-serif;
- font-size: 1.25em;
- position: fixed;
- right:0em;
- padding: 0.6em;
- width: 8em;
- background-color:#eee;
  bottom:1em;
 }
 
