@@ -2,23 +2,20 @@
 /* Headlines */
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif !important;
-	font-weight: normal;
-	letter-spacing: 0.02em;
+	font-weight: 400;
 	color: #222;
 }
 
 h1 {
 	color: #F90B6D;
+	font-weight: normal;
 	font-size: 2.45em;
-	line-height: 0.85em;
-	margin-top: 2em;
-	margin-left: 2em;
-	margin-bottom: 0em;
+	line-height: 0.8em;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-bottom: -2em;
 }
 
-.h1shortspaces {
-	letter-spacing: -0.01em;
-}
 
 h2 {
 	font-size: 1.25em;
@@ -54,7 +51,7 @@ h5 {
 h6 {
 	color: #fff;
 	font-size: 1.25em;
-	line-height: 0.85em;
+	line-height: 0.8em;
 	margin-left: 1em;
 }
 
