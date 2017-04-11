@@ -1,7 +1,8 @@
 
 /* Headlines */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: normal;
 	letter-spacing: 0.02em;
 	color: #222;
 }
@@ -62,7 +63,8 @@ h6 {
 /* Global styles */
 
 body {
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: 'Nunito Sans', sans-serif !important;
+	font-weight: normal;
 	letter-spacing: 0.01em;
 	font-size: 16px;
 	line-height: 1.5em;
@@ -178,8 +180,6 @@ p {
  background-color:#ddd;
  position: relative;
  display: inline-block;
-
-
 }
 
 
@@ -217,12 +217,11 @@ p {
 .authorportrait2block {
 	position: relative;
 	background-color:#ddd;
-	padding-bottom: 40em;
-  	margin-bottom: -40em;
-  	overflow: hidden;
-  	width: 50%;
-  	float: left;
-
+	padding-bottom: 17.5em;
+  margin-bottom: -14em;
+	overflow: hidden;
+	width: 50%;
+	float: left;
 }
 
 .authorportrait2block h6 {
@@ -230,7 +229,6 @@ p {
 	width: 100%;
 	z-index: 100;
 	top: 1vh;
-
 }
 
 .contactblock {
@@ -238,12 +236,13 @@ p {
 	position: relative;
  	float: right;
  	width: 50%;
- 	padding: 1em;
+ 	padding: 2em;
  	background-color:#ddd;
- 	padding-bottom: 10em;
-  margin-bottom: -10em;
+	padding-bottom: 3.1em;
+	margin-bottom: -3.1em;
 	overflow: hidden;
 }
+
 .socialmedia {
 	color: #f90b6d;
 	font-size: 2em;
@@ -650,6 +649,15 @@ p {
 		letter-spacing: 0.5em;
 
 	}
+	.authorportrait2block {
+		padding-bottom: 10em;
+	}
+
+	.contactblock {
+		padding: 0em;
+		margin-bottom: 0em;
+	}
+
 }
 
 @media screen and (min-width: 37em) {
@@ -702,9 +710,15 @@ p {
 		line-height: 3em;
 		margin-bottom: 1em;
 		margin-top: 2em;
-	}.
-	contactblock{
+	}
+	.contactblock{
 		line-height: 2em;
+		padding: 3em;
+		padding-bottom: 5.4em;
+		margin-bottom: -5.4em;
+	}
+	.authorportrait2block {
+		padding-bottom: 30em;
 	}
 	.socialmedia {
 		text-indent: 0.5em;
