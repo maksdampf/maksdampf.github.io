@@ -53,7 +53,7 @@ h5 {
 h6 {
 	color: #fff;
 	font-size: 1.25em;
-	line-height: 0.8em;
+	line-height: 0.85em;
 	margin-left: 1em;
 }
 
@@ -240,9 +240,9 @@ p {
  	width: 50%;
  	padding: 1em;
  	background-color:#ddd;
- 	padding-bottom: 500em;
-  	margin-bottom: -500em;
-  	overflow: hidden;
+ 	padding-bottom: 10em;
+  margin-bottom: -10em;
+	overflow: hidden;
 }
 .socialmedia {
 	color: #f90b6d;
