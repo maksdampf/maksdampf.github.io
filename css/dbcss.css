@@ -74,7 +74,7 @@ body {
 }
 
 ul {
-	
+
 	margin: 0;
 	padding-left: 1em;
 }
@@ -256,7 +256,7 @@ p {
   position: fixed;
   right:0em;
   padding: 0.6em;
-  width: 8em;
+  width: 6em;
   background-color:#eee;
 }
 
@@ -651,8 +651,18 @@ p {
 	}
 
 	.contactblock {
-		padding: 0em;
+		text-align: left;
+		padding: 0.5em;
 		margin-bottom: 0em;
+	}
+
+	.navworks, .navabout, .navreferences, .navawards, .navcontact {
+	  font-size: 1em;
+	  position: fixed;
+	  right:0em;
+	  padding: 0.5em;
+	  width: 6em;
+	  background-color:#eee;
 	}
 
 }
