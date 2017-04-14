@@ -15,28 +15,29 @@
 		by Mary Lou from codrops.
 		http://tympanus.net/codrops/?p=25256
 	-->
-
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" />
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/dbcss.css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito+Sans" rel="stylesheet">
 </head>
 
 <body class="demo-2">
+	<div itemscope itemtype="http://schema.org/Person">
 	<div class="container">
 
 		<!-- works -->
 		<div class="content">
-			<h1>product&nbsp;design&nbsp;&<br>design for manufacturing</h1>
+			<h1 itemprop="makesOffer">product&nbsp;design&nbsp;&<br>design for manufacturing</h1>
 
-		<h2> David Burkhardt</h2>
+		<h2 itemprop="name"> David Burkhardt</h2>
 			<div class="grid">
 				<div class="grid__item" data-size="958x1280">
 					<a href="img/original/outdoorfurniture.jpg" class="img-wrap"><img src="img/thumbs/outdoorfurniture.jpg" alt="outdoor furniture" />
 						<div class="description description--grid">
 							<h3>Outdoor Furniture</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							This set of outdoor furniture can be made from just two types of recycled wood.
-							The design is inspired by <i>Will Holman's Scrap Table (Guerilla furniture)</i>,
+							The design is inspired by <i itemprop="isBasedOn">Will Holman's Scrap Table (Guerilla furniture)</i>,
 							 but uses other proportions and simplified materials:
 							 generic 4x6 roof lath and 2x10 cm board.
 							</p>
@@ -46,10 +47,10 @@
 							Non-triangulated beams do not add much stability to the space frame, so they were left out.							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2016</span></li>
-									<li><i class="fa fa-share-alt"></i><span>Open Source License: CC BY-NC-SA 2.5</span></li>
-									<li><i class="fa fa-recycle"></i><span>construction wood 4x6cm and 2x10cm</span></li>
-									<li><i class="fa fa-external-link"></i><span style="cursor:pointer;" onclick="window.open('https://www.instructables.com/id/Outdoor-Table-and-Bench-With-Tapered-Legs/')">View this on Instructables</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2016</span></li>
+									<li><i class="fa fa-share-alt" itemprop="license"></i><span>Open Source License: CC BY-NC-SA 2.5</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>construction wood 4x6cm and 2x10cm</span></li>
+									<li><i class="fa fa-external-link" itemprop="sameAs"></i><span style="cursor:pointer;" onclick="window.open('https://www.instructables.com/id/Outdoor-Table-and-Bench-With-Tapered-Legs/')">View this on Instructables</span></li>
 								</ul>
 							</div>
 							<p>
@@ -65,7 +66,7 @@
 						<div class="description description--grid">
 							<h3>Maya Server</h3>
 
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							Maya is a Server designed and engineered by David Burkhardt for Protonet GmbH.</p><p>
 
 							Protonet wanted a design that focuses on accessability. Their goal is
@@ -92,11 +93,11 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2014</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
-									<li><i class="fa fa-recycle"></i><span>steel ST1203 / DC01</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2014</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>steel ST1203 / DC01</span></li>
 									<li><i class="fa fa-wrench"></i><span>Punch laser process, robotic laserwelding</span></li>
-									<li><i class="fa fa-paint-brush"></i><span>powder coated / cathodic immersion painted</span></li>
+									<li><i class="fa fa-paint-brush" itemprop="color"></i><span>powder coated / cathodic immersion painted</span></li>
 									<li><i class="fa fa-codepen"></i><span>123 x 178 x 140mm (WxHxD)</span></li>
 									<li><i class="fa fa-th"></i><span>ca. 2000pcs</span></li>
 								</ul>
@@ -112,10 +113,10 @@
 					<a href="img/original/protonet_ci.jpg" class="img-wrap"><img src="img/thumbs/protonet_ci.jpg" alt="protonet_ci" />
 						<div class="description description--grid">
 							<h3>Protonet Corporate Identity</h3>
-							<p><em>David Burkhardt</em>When joining the Protonet Project as a hardware designer,
+							<p><em itemprop="creator">David Burkhardt</em>When joining the Protonet Project as a hardware designer,
 							the project did not have a corporate identity.
 							Thus, one focus of hardware design was to create a recognition value and a
-							form language from scratch.
+							language of form from scratch.
 							</p><p>
 							David Burkhardt joined the Protonet Project in 2009.
 							The Company was launched in 2012 along with its first product,
@@ -129,8 +130,8 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2009</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2009</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
 
 								</ul>
 							</div>
@@ -144,15 +145,15 @@
 				<div class="grid__item" data-size="1280x850">
 					<a href="img/original/expertise_technical_drawings.jpg" class="img-wrap"><img src="img/thumbs/expertise_technical_drawings.jpg" alt="expertise_technical_drawings" />
 						<div class="description description--grid">
-							<h3>Process Optimized Techical Drawings</h3>
-							<p><em>David Burkhardt</em>
+							<h3>Process Optimized Technical Drawings</h3>
+							<p><em itemprop="creator">David Burkhardt</em>
 							When working for Protonet GmbH, David Burkhardt designed several parts
 							for volume manufacturing processes:</p><p>
 								<ul>
-									<li>Aluminum extrusion of heatsink profiles</li>
+									<li>Aluminium extrusion of heatsink profiles</li>
 									<li>CNC-bending of heatpipe tubes</li>
 									<li>injection moulding of plastic parts</li>
-									<li>cold extrusion and die forging of custom screws</li>
+									<li>cold extrusion and die forging of custom bolts</li>
 								</ul></p><p>
 							Design for these processes differs from those for prototype production
 							 by accounting for special design rules, tolerances and
@@ -164,18 +165,18 @@
 							Working for Protonet, this included choosing a manufacturer and working
 							together with them to finalize the design, process schedule and production ramp.
 								</p><p>
-									The picture on the left shows a 3d printed prototype for an aluminum extrusion and the later extruded part.
+									The picture on the left shows a 3d printed prototype for an aluminium extrusion and the later extruded part.
 									Both pictures below compare serial production of cnc-milled parts with later injection moulded ones,
 									 one with brass inserts for integrated screw threads.							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2010-2016</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2010-2016</span></li>
 
-									<li><i class="fa fa-industry"></i><span>Fischer-Elektronik GmbH & Co Kg</span></li>
-									<li><i class="fa fa-industry"></i><span>Tianjin Skydow metal works Ltd</span></li>
-									<li><i class="fa fa-industry"></i><span>29 days GmbH</span></li>
-									<li><i class="fa fa-industry"></i><span>Dongguan King Tower Hardware Co., Ltd</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>Fischer-Elektronik GmbH & Co Kg</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>Tianjin Skydow metal works Ltd</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>29 days GmbH</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>Dongguan King Tower Hardware Co., Ltd</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
 								</ul>
 							</div>
 							<p>
@@ -189,7 +190,7 @@
 					<a href="img/original/patent.jpg" class="img-wrap"><img src="img/thumbs/patent.jpg" alt="patent" />
 						<div class="description description--grid">
 							<h3>Patent DE 102013010867 B4</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							A fanless cooling method was invented by David Burkhardt for a noiseless
 							 server design for Protonet GmbH.
 							The method is based on positioning indiviual components inside the chassis
@@ -205,9 +206,9 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2013</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
-									<li><i class="fa fa-external-link"></i><span style="cursor:pointer;" onclick="window.open('http://www.google.com/patents/DE102013010867B4?cl=de&hl=de')">View on Google Patents</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2013</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-external-link" itemprop="sameAs"></i><span style="cursor:pointer;" onclick="window.open('http://www.google.com/patents/DE102013010867B4?cl=de&hl=de')">View on Google Patents</span></li>
 								</ul>
 							</div>
 							<p>
@@ -221,17 +222,17 @@
 					<a href="img/original/carla2.jpg" class="img-wrap"><img src="img/thumbs/carla2.jpg" alt="carla2" />
 						<div class="description description--grid">
 							<h3>Carla 2 Server</h3>
-							<p><em>David Burkhardt & Tillmann Radmer</em>
+							<p><em itemprop="creator">David Burkhardt & Tillmann Radmer</em>
 							This Server was designed for Protonet as a successor to their Carla
 							Server of 2013. Technical layout and thermal simulation were prepared
-							by student trainee Tillman Radmer while David Burkhardt conducted
+							by <span itemprop="employee">Tillman Radmer</span> while David Burkhardt conducted
 							concept, design, construction, production ramp
 							 and assembly instructions.
 
 							</p>
 							<p>
 							All components are modular and can be slid out of the chassis individually.
-							The concept uses plug-in modules, like a battery backup unit and 4G, to
+							The concept uses plug-in modules, like a battery backup unit and 4G-module, to
 						  increase reliability and independence in case of a power outage
 							or cable network breakdown.
 							</p>
@@ -243,11 +244,11 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2016</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet Inc</span></li>
-									<li><i class="fa fa-recycle"></i><span>steel ST1203 / DC01, Almg3, E-Cu</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2016</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet Inc</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>steel ST1203 / DC01, Almg3, E-Cu</span></li>
 									<li><i class="fa fa-wrench"></i><span>Punch laser process, robotic laserwelding</span></li>
-									<li><i class="fa fa-paint-brush"></i><span>powder coated / cathodic immersion painted</span></li>
+									<li><i class="fa fa-paint-brush" itemprop="color"></i><span>powder coated / cathodic immersion painted</span></li>
 									<li><i class="fa fa-codepen"></i><span>208 x 272 x 228mm (WxHxD)</span></li>
 								</ul>
 							</div>
@@ -263,7 +264,7 @@
 					<a href="img/original/tuev.jpg" class="img-wrap"><img src="img/thumbs/tuev.jpg" alt="tuev" />
 						<div class="description description--grid">
 							<h3>Engineering for EMC and CE Conformity Testing</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 
 							David Burkhardt has been in charge for designing,
 							testing and modifying product prototypes
@@ -277,8 +278,8 @@
 							 </p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2012, 2015</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2012, 2015</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
 
 								</ul>
 							</div>
@@ -296,7 +297,7 @@
 					<a href="img/original/process_engineering.jpg" class="img-wrap"><img src="img/thumbs/process_engineering.jpg" alt="process_engineering" />
 						<div class="description description--grid">
 							<h3>Process Engineering</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							When designing for a startup company like Protonet, David Burkhardt was
 							faced with ever changing pace in development and manufacturing.
 							What started as a test batch, had to be ramped up quickly to
@@ -325,8 +326,8 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2009-2016</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2009-2016</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
 
 								</ul>
 							</div>
@@ -346,7 +347,7 @@
 					<a href="img/original/packaging_maya.jpg" class="img-wrap"><img src="img/thumbs/packaging_maya.jpg" alt="packaging_maya" />
 						<div class="description description--grid">
 							<h3>Packaging Maya</h3>
-							<p><em>David Burkhardt & Tobias Otto</em>
+							<p><em itemprop="creator">David Burkhardt & <span itemprop="colleague">Tobias Otto</span></em>
 							The packaging for the Maya Server of Protonet GmbH
 							is a combined packaging for retail display as well as shipping.
 							</p><p>
@@ -361,11 +362,11 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2014</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
-									<li><i class="fa fa-industry"></i><span>DS Smith</span></li>
-									<li><i class="fa fa-recycle"></i><span>cardboard E-flute, pu-foam</span></li>
-									<li><i class="fa fa-paint-brush"></i><span>caribic black offset print on matte black laminated sheet</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2014</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>DS Smith</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>cardboard E-flute, pu-foam</span></li>
+									<li><i class="fa fa-paint-brush" itemprop="color"></i><span>caribic black offset print on matte black laminated sheet</span></li>
 									<li><i class="fa fa-codepen"></i><span>210 x 320 x 240mm (WxHxD)</span></li>
 								</ul>
 							</div>
@@ -379,8 +380,8 @@
 					<a href="img/original/product_photography.jpg" class="img-wrap"><img src="img/thumbs/product_photography.jpg" alt="product_photography" />
 						<div class="description description--grid">
 							<h3>Product Photography</h3>
-							<p><em>David Burkhardt</em>
-							Over the time, David Burkhardt has made
+							<p><em itemprop="creator">David Burkhardt</em>
+							Over time, David Burkhardt has made
 							studio photographs for documentation, brochures and web use for
 							Protonet GmbH and other customers.
 							For on-site shootings a mobile
@@ -390,7 +391,7 @@
 
 										<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2007-current</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2007-current</span></li>
 
 								</ul>
 							</div>
@@ -406,7 +407,7 @@
 					<a href="img/original/packaging_carla.jpg" class="img-wrap"><img src="img/thumbs/packaging_carla.jpg" alt="packaging_carla" />
 						<div class="description description--grid">
 							<h3>Packaging Upcycling</h3>
-							<p><em>David Burkhardt & Tobias Otto</em>
+							<p><em itemprop="creator">David Burkhardt & Tobias Otto</em>
 							This cardboard packaging
 							can serve as a desktop shelf, after beeing a packaging for the
 							Protonet Carla server. It was designed as a retail packaging as well
@@ -424,10 +425,10 @@
 							 </p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2013</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
-									<li><i class="fa fa-industry"></i><span>DS Smith</span></li>
-									<li><i class="fa fa-recycle"></i><span>cardboard D-flute</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2013</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>DS Smith</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>cardboard D-flute</span></li>
 									<li><i class="fa fa-codepen"></i><span>250 x 330 x 270mm (WxHxD)</span></li>
 								</ul>
 							</div>
@@ -445,7 +446,7 @@
 					<a href="img/original/packaging_carla2.jpg" class="img-wrap"><img id="packaging_carla2" src="img/thumbs/packaging_carla2.jpg" alt="packaging_carla2" />
 						<div class="description description--grid">
 							<h3>Packaging for Carla2</h3>
-							<p><em>Qianli Ma & David Burkhardt</em>
+							<p><em itemprop="creator">Qianli Ma & David Burkhardt</em>
 							The packaging for Protonet's Carla 2 server may look like retail packaging.
 							But it's also possessing considerable toughness for worldwide shipping,
 							 withstanding DIN 22 248
@@ -458,9 +459,9 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2014</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet Inc.</span></li>
-									<li><i class="fa fa-recycle"></i><span>black MDF, needled felt, packing strap</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2014</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet Inc.</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>black MDF, needled felt, packing strap</span></li>
 									<li><i class="fa fa-wrench"></i><span>lasercut</span></li>
 									<li><i class="fa fa-codepen"></i><span>248 x 386 x 267mm (WxHxD)</span></li>
 								</ul>
@@ -477,7 +478,7 @@
 					<a href="img/original/prototype_jigs.jpg" class="img-wrap"><img src="img/thumbs/prototype_jigs.jpg" alt="prototype_jigs" />
 						<div class="description description--grid">
 							<h3>Prototype Jigs</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							When working for Protonet, David Burkhardt made several jigs
 							for prototype tooling. They can be used to test assumptions,
 							 manufacturing processes or even for a pilot production run.
@@ -503,8 +504,8 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2012</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2012</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
 									</ul>
 							</div>
 							<p>
@@ -520,7 +521,7 @@
 					<a href="img/original/projekt_aal.jpg" class="img-wrap"><img src="img/thumbs/projekt_aal.jpg" alt="projekt_aal" />
 						<div class="description description--grid">
 							<h3>Projekt Aal</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							David Burkhardt worked on the concept of a modular smart home server for Protonet.
 							This started with research into physical user interfaces, including tangible, graspable user interfaces.
 							</p><p>
@@ -532,10 +533,10 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2015</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2015</span></li>
 									<li><i class="fa fa-graduation-cap"></i><span>Prof. Glen Oliver Loew</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet Inc.</span></li>
-									<li><i class="fa fa-recycle"></i><span>ABS, V2A stainless steel</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet Inc.</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>ABS, V2A stainless steel</span></li>
 									<li><i class="fa fa-wrench"></i><span>3d prints, lasercut</span></li>
 								</ul>
 							</div>
@@ -550,7 +551,7 @@
 					<a href="img/original/trade_fair_booth.jpg" class="img-wrap"><img src="img/thumbs/trade_fair_booth.jpg" alt="trade_fair_booth" />
 						<div class="description description--grid">
 							<h3>Trade Fair Booth</h3>
-							<p><em>David Burkhardt & Alexander Joly</em>
+							<p><em itemprop="creator">David Burkhardt & <span itemprop="colleague">Alexander Joly</span></em>
 							A trade fair booth for Protonet that embeds the protonet design language.
 							It was used on the IMM Cologne 2015 and CeBit exhibitions.
 							</p>
@@ -563,10 +564,10 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2015</span></li>
-									<li><i class="fa fa-building-o"></i><span>Protonet GmbH</span></li>
-									<li><i class="fa fa-recycle"></i><span>antracite HPL chip board , powdercoated steel, aluminium, pmma</span></li>
-									<li><i class="fa fa-industry"></i><span>Alexander Joly / Kurios Laserprodukt GmbH</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2015</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Protonet GmbH</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>antracite HPL chip board , powdercoated steel, aluminium, pmma</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>Alexander Joly / Kurios Laserprodukt GmbH</span></li>
 							</ul>
 							</div>
 							<p>
@@ -580,24 +581,23 @@
 					<a href="img/original/point_of_sale.jpg" class="img-wrap"><img src="img/thumbs/point_of_sale.jpg" alt="point_of_sale" />
 						<div class="description description--grid">
 							<h3>Point of Sale</h3>
-							<p><em>David Burkhardt & Qianli Ma</em>
-							This point-of-sale display has been designed by David Burkhardt together with Neue Farben (Software)
-							and Alexander Joly (wooden stand). Assembly, wiring and 3d printed mechanical connecting blocks have been implemented by student trainee Qianli Ma.</p><p>
+							<p><em itemprop="creator">David Burkhardt & <span itemprop="colleague">Qianli Ma</span></em>
+							This point-of-sale display has been designed by David Burkhardt together with <span itemprop="colleague">Neue Farben (Software)</span>
+							and Alexander Joly (wooden stand). Assembly, wiring and 3d printed mechanical connecting blocks have been implemented by <span itemprop="employee">Qianli Ma</span>.</p><p>
 							It features a touchscreen interface and speaker, to deliver information and
 							interaction methods to the user. The Onscreen Interface can be
 							 managed and updated remotely.</p><p>
-							The display is designed for usage in retail stores, trade fair or event situations,
-							in case sales are not constantly available to make the first contact.
+							The display is designed for usage in retail stores, trade fair or event situations.
 							</p>
 
 
 								<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2015</span></li>
-									<li><i class="fa fa-code"></i><span>Neue Farben</span><span style="cursor:pointer;" onclick="window.open('http://neue-farben.com')"><i class="fa fa-external-link"></i></span></li>
-									<li><i class="fa fa-recycle"></i><span>MDF 18mm, PLA, Steel 2mm DC01</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2015</span></li>
+									<li><i class="fa fa-code"></i><span>Neue Farben</span><span style="cursor:pointer;" onclick="window.open('http://neue-farben.com')"><i class="fa fa-external-link" itemprop="sameAs"></i></span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>MDF 18mm, PLA, Steel 2mm DC01</span></li>
 									<li><i class="fa fa-wrench"></i><span>lasercut, 3d printed</span></li>
-									<li><i class="fa fa-paint-brush"></i><span>powder coated</span></li>
+									<li><i class="fa fa-paint-brush" itemprop="color"></i><span>powder coated</span></li>
 
 								</ul>
 							</div>
@@ -609,7 +609,7 @@
 					<a href="img/original/cowboy_cooking.jpg" class="img-wrap"><img src="img/thumbs/cowboy_cooking.jpg" alt="cowboy_cooking" />
 						<div class="description description--grid">
 							<h3>Cowboy Cooking Knife</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							A hole in the blade of this knife allows for new chopping and handling methods.
 							</p>
 							<p>
@@ -618,10 +618,10 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2008</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2008</span></li>
 									<li><i class="fa fa-graduation-cap"></i><span>Prof. Alexa Lixfeld</span></li>
-									<li><i class="fa fa-building-o"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
-									<li><i class="fa fa-recycle"></i><span>steel CK75</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>steel CK75</span></li>
 									<li><i class="fa fa-wrench"></i><span>free-forged at the University of Fine Arts of Hamburg metal workshop</span></li>
 
 								</ul>
@@ -633,8 +633,8 @@
 					<a href="img/original/hhlv.jpg" class="img-wrap"><img src="img/thumbs/hhlv.jpg" alt="hhlv" />
 						<div class="description description--grid">
 							<h3>Vintage Boat Maintenance</h3>
-							<p><em>David Burkhardt</em>
-							Hamburg has a history of swimming workshops, offices and houses called "Hafenlieger".
+							<p><em itemprop="creator">David Burkhardt</em>
+							Hamburg has a heritage of swimming workshops, offices and houses called "Hafenlieger".
 							</p>
 							<p>
 							With the <i>'Hamburger Hafen Lieger Verband e.V.'</i>,  David Burkhardt helped to preserve
@@ -645,9 +645,9 @@
 
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2011-2016</span></li>
-									<li><i class="fa fa-building-o"></i><span>HHLV e.V.</span></li>
-									<li><i class="fa fa-external-link"></i><span style="cursor:pointer;" onclick="window.open('http://hhlv.org')">Website</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2011-2016</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>HHLV e.V.</span></li>
+									<li><i class="fa fa-external-link" itemprop="sameAs"></i><span style="cursor:pointer;" onclick="window.open('http://hhlv.org')">Website</span></li>
 								</ul>
 							</div>
 							<p>
@@ -663,7 +663,7 @@
 					<a href="img/original/spring_scissors.jpg" class="img-wrap"><img src="img/thumbs/spring_scissors.jpg" alt="spring_scissors" />
 						<div class="description description--grid">
 							<h3>Spring Scissors</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							In 2007, a local scissors manufacturer wanted to launch a new retail brand for scissors.
 							As an original manufacturer, the client already produced scissors for several well-known retail brands,
 							but wanted to have a retail marque of their own.
@@ -683,10 +683,10 @@
 							<p>
 							</p><div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2007</span></li>
+									<li><i class="fa fa-clock-o" itemprop="productionDate"></i><span>2007</span></li>
 									<li><i class="fa fa-graduation-cap"></i><span>Prof. Glen Oliver Loew</span></li>
-									<li><i class="fa fa-building-o"></i><span>Scherenmanufaktur Paul GmbH</span></li>
-									<li><i class="fa fa-recycle"></i><span>spring steel 1.4310, V2A, Polyurethane</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>Scherenmanufaktur Paul GmbH</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>spring steel 1.4310, V2A, Polyurethane</span></li>
 									<li><i class="fa fa-wrench"></i><span>lasercut, vacuum moulded in silicone form of an ureol model</span></li>
 								</ul>
 							</div>
@@ -703,7 +703,7 @@
 					<a href="img/original/open_sauce.jpg" class="img-wrap"><img src="img/thumbs/open_sauce.jpg" alt="open_sauce" />
 						<div class="description description--grid">
 							<h3>Open Sauce</h3>
-							<p><em>David Burkhardt, Paul Geisler, Ulf Freyhoff</em>
+							<p><em itemprop="creator">David Burkhardt, Paul Geisler, Ulf Freyhoff</em>
 							R4B30157 of the melfa RM-501 family by Mitsubishi is a retired industrial robot.
 							</p>
 							<p>
@@ -723,10 +723,10 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2009 Hamburg Night of Science</span></li>
-									<li><i class="fa fa-building-o"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
-									<li><i class="fa fa-industry"></i><span>workshop mixed media</span></li>
-									<li><i class="fa fa-external-link"></i><span style="cursor:pointer;" onclick="window.open('https://twitter.com/R4B30157')">R4B30157 on Twitter</span></li>
+									<li><i class="fa fa-clock-o" itemprop="performerIn"></i><span>2009 Hamburg Night of Science</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
+									<li><i class="fa fa-industry" itemprop="provider"></i><span>workshop mixed media</span></li>
+									<li><i class="fa fa-external-link" itemprop="sameAs"></i><span style="cursor:pointer;" onclick="window.open('https://twitter.com/R4B30157')">R4B30157 on Twitter</span></li>
 								</ul>
 							</div>
 							<p>
@@ -746,7 +746,7 @@
 					<a href="img/original/chaospendel.jpg" class="img-wrap"><img src="img/thumbs/chaospendel.jpg" alt="chaospendel" />
 						<div class="description description--grid">
 							<h3>Reciprocating chaos</h3>
-							<p><em>David Burkhardt</em>
+							<p><em itemprop="creator">David Burkhardt</em>
 							This Installation creates a chaotic beat by using a triple magnet pendulum.
 							While slowly oscillating to a stop, endless new rythms are created.
 							</p>
@@ -756,10 +756,10 @@
 							</p>
 								<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2009</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2009</span></li>
 									<li><i class="fa fa-graduation-cap"></i><span>Prof. Nicola Richter</span></li>
-									<li><i class="fa fa-building-o"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
-									<li><i class="fa fa-recycle"></i><span>welded steel tube</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>welded steel tube</span></li>
 
 								</ul>
 							</div>
@@ -770,7 +770,7 @@
 					<a href="img/original/fruchtsuppe.jpg" class="img-wrap"><img src="img/thumbs/fruchtsuppe.jpg" alt="fruchtsuppe" />
 						<div class="description description--grid">
 							<h3>Fruchtsuppe</h3>
-							<p><em>Alexej Hermann, David Burkhardt, Esther Stühmer, Philippe Nielsen, Seyon Han, Stella Dahms</em>
+							<p><em itemprop="creator">Alexej Hermann, David Burkhardt, Esther Stühmer, Philippe Nielsen, Seyon Han, Stella Dahms</em>
 							A soup bowl, serving twelve people.
 							</p>
 							<p>
@@ -786,10 +786,10 @@
 							</p>
 							<div class="details">
 								<ul>
-									<li><i class="fa fa-clock-o"></i><span>2008</span></li>
+									<li><i class="fa fa-clock-o" itemprop="startDate"></i><span>2008</span></li>
 									<li><i class="fa fa-graduation-cap"></i><span>Prof. Alexa Lixfeld</span></li>
-									<li><i class="fa fa-building-o"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
-									<li><i class="fa fa-recycle"></i><span>laminated styrofoam</span></li>
+									<li><i class="fa fa-building-o" itemprop="worksFor"></i><span>HfbK University of Fine Arts of Hamburg</span></li>
+									<li><i class="fa fa-recycle" itemprop="material"></i><span>laminated styrofoam</span></li>
 								</ul>
 							</div>
 						</div>
@@ -811,21 +811,21 @@
 	</div>
 
 	<div class="about">
-		<img src="img/original/David2-3.jpg" class="authorportrait" alt="David Burkhardt">
-	<h5> David Burkhardt is a product designer based in Hamburg, Germany.
-		At the age of 17, he was co-founder of Netthelp,
+		<img src="img/original/David2-3.jpg" itemprop="image" class="authorportrait" alt="David Burkhardt">
+	<h5 itemprop="description"> David Burkhardt is a product <span itemprop="jobTitle">designer</span> based in Hamburg, <span itemprop="nationality">Germany</span>.
+		At the age of 17, he was co-founder of <span itemprop="alumniOf">Netthelp</span>,
 		 a student company offering IT-services for schools which is still operating today.
 		Later, still in high school,
 		 he founded his own company
 		  for cnc-milled water cooling devices and small form factor computers
 		   that won several awards.
 <p></p>
-		David then went on to study industrial design at the University of fine arts of Hamburg,
-		 in the class of Prof. Glen-Oliver Löw.
+		David then went on to study industrial design at the <span itemprop="alumniOf">University of fine arts of Hamburg</span>,
+		 in the class of <span itemprop="alumniOf">Prof. Glen-Oliver Löw</span>.
 		 During the time at HfbK he also worked as a tutor for the CAD-labs and Mixed Media Workshop.
-		As of 2012 he joined Protonet GmbH,
-		 a hamburg based startup that would set an european crowd funding record
-		  and get chosen by the Y-Combinator accelerator program.
+		As of 2012 he joined <span itemprop="alumniOf">Protonet</span> GmbH,
+		 a Hamburg based startup that would set an european crowd funding record
+		  and get chosen by the <span itemprop="funder">Y-Combinator</span> accelerator program.
 		   Until 2016 he was responsible for the design of every major Protonet product,
 		    its manufacturing
 			 and process development.
@@ -835,34 +835,35 @@
 
 
 	<div class="references">
+
 	<h4>Teams that David Burkhardt has worked with: </h4>
-				<img src="img/reflogos/reflogo07.png" class="refimg" alt="Protonet">
-				<img src="img/reflogos/reflogo02.png" class="refimg" alt="Npire">
-				<img src="img/reflogos/reflogo03.png" class="refimg" alt="Kolle Rebbe">
-				<img src="img/reflogos/reflogo09.png" class="refimg" alt="HfbK">
-				<img src="img/reflogos/reflogo05.png" class="refimg" alt="Neue Farben">
-				<img src="img/reflogos/reflogo06.png" class="refimg" alt="Mingdu Studio">
-				<img src="img/reflogos/reflogo10.png" class="refimg" alt="bauer + planer">
-				<img src="img/reflogos/reflogo04.png" class="refimg" alt="Anfi-tec">
-				<img src="img/reflogos/reflogo01.png" class="refimg" alt="Der kleine Knick">
-				<img src="img/reflogos/reflogo08.png" class="refimg" alt="DS Smith">
+				<img src="img/reflogos/reflogo07.png" itemprop="affiliation" class="refimg" alt="Protonet">
+				<img src="img/reflogos/reflogo02.png" itemprop="affiliation" class="refimg" alt="Npire">
+				<img src="img/reflogos/reflogo03.png" itemprop="affiliation" class="refimg" alt="Kolle Rebbe">
+				<img src="img/reflogos/reflogo09.png" itemprop="affiliation" class="refimg" alt="HfbK">
+				<img src="img/reflogos/reflogo05.png" itemprop="affiliation" class="refimg" alt="Neue Farben">
+				<img src="img/reflogos/reflogo06.png" itemprop="affiliation" class="refimg" alt="Mingdu Studio">
+				<img src="img/reflogos/reflogo10.png" itemprop="affiliation" class="refimg" alt="bauer + planer">
+				<img src="img/reflogos/reflogo04.png" itemprop="affiliation" class="refimg" alt="Anfi-tec">
+				<img src="img/reflogos/reflogo01.png" itemprop="affiliation" class="refimg" alt="Der kleine Knick">
+				<img src="img/reflogos/reflogo08.png" itemprop="affiliation" class="refimg" alt="DS Smith">
 	</div>
 	<div class="awards">
 	<h4>Awards:</h4><p></p>
 				<img src="img/prizelogos/awards05.png" width="100%" alt="Innovations und Patentcentrum Art directors club BSU Hamburg Verein deutscher Ingenieure Jugend Forscht">
-				<div class="awardstext">
+				<div class="awardstext" itemprop="award">
 					Silver & bronze & Audience prize at ADC awards show 2014
 				</div>
-				<div class="awardstext">
+				<div class="awardstext" itemprop="award">
 					Patent of the month at Hamburg Chamber of Commerce, 06/2015
 				</div>
-				<div class="awardstext">
+				<div class="awardstext" itemprop="award">
 					Award for eco-friendly product design of the BSU Hamburg 2013
 				</div>
-				<div class="awardstext">
+				<div class="awardstext" itemprop="award">
 					Prize of the President of VDI e.V. at Jugend forscht federal competition 2005
 				</div>
-				<div class="awardstext">
+				<div class="awardstext" itemprop="award">
 					1st Prize: Technology at Jugend forscht state competition Hamburg 2005
 				</div>
 	</div>
@@ -871,7 +872,7 @@
 	<div class="contact">
 		<div class="authorportrait2block" alt="David Burkhardt">
 			<img src="img/original/david_burkhardt-2.jpg" class="authorportrait2" alt="David_Burkhardt_at_the_Workshop">
-			<h6>let's start a design project<br> get in touch</br></h6>	<p></p>
+			<h6>let's <span itemprop="potentialAction">start a design project</span><br> get in touch</br></h6>	<p></p>
 		</div>
 		<div class="contactblock">
 
@@ -908,16 +909,14 @@
 			</h4>
 			<p></p>
 
-
-			<h4>David&nbsp;Burkhardt</h4>
-			<h4>Diplomdesigner&nbsp;</h4>
-			<h4>Gaußstraße&nbsp;51&nbsp;&nbsp;&nbsp;</h4>
-			<h4>22765&nbsp;Hamburg&nbsp;</h4><p></p>
+			<span itemprop"adress">
+			<h4 itemprop="name">David&nbsp;Burkhardt</h4>
+			<h4 itemprop="jobTitle">Diplom&nbsp;Designer</h4>
+			<h4 itemprop="streetAddress">Gaußstraße&nbsp;51&nbsp;&nbsp;&nbsp;</h4>
+			<h4 itemprop="postalCode">22765&nbsp;Hamburg&nbsp;</h4><p></p>
+		</span>
 		</div>
-
-
-
-
+	</div>
 
 
 	<!-- /container -->
