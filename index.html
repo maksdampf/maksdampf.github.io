@@ -15,10 +15,10 @@
 		http://tympanus.net/codrops/?p=25256
 	-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" />
+    <link rel="preconnect" href="https://use.fontawesome.com">
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/dbcss.css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito+Sans" rel="stylesheet" />
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Nunito+Sans&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js" type="text/javascript"></script>
   </head>
 
@@ -756,7 +756,7 @@
 
           <!-- /grid -->
           <div class="preview">
-            <button class="action action--close">
+            <button class="action action--close" aria-label="Close">
               <p class="text-hidden"><i class="fa fa-compress"></i></p>
             </button>
             <div class="description description--preview"></div>
@@ -797,7 +797,12 @@
         <div class="awards">
           <h4>Awards that Davids designs have won:</h4>
           <p></p>
-          <img data-src="img/prizelogos/awards05.png" class="lozad" width="100%" alt="Innovations und Patentcentrum Art directors club BSU Hamburg Verein deutscher Ingenieure Jugend Forscht" />
+          <img
+            data-src="img/prizelogos/awards05.png"
+            class="lozad"
+            width="100%"
+            alt="Innovations und Patentcentrum Art directors club BSU Hamburg Verein deutscher Ingenieure Jugend Forscht"
+          />
           <div class="awardstext" itemprop="award">Silver & bronze & Audience prize at ADC awards show 2014</div>
           <div class="awardstext" itemprop="award">Patent of the month at Hamburg Chamber of Commerce, 06/2015</div>
           <div class="awardstext" itemprop="award">Award for eco-friendly product design of the BSU Hamburg 2013</div>
@@ -819,13 +824,13 @@
             <p></p>
 
             <div class="socialmedia">
-              <a href="https://www.xing.com/profile/David_Burkhardt4" target="_blank" rel="me">
+              <a href="https://www.xing.com/profile/David_Burkhardt4" target="_blank" rel="me" aria-label="Xing">
                 <i class="fa fa-xing"></i>
               </a>
-              <a href="https://twitter.com/david_tweet" target="_blank" rel="me">
+              <a href="https://twitter.com/david_tweet" target="_blank" rel="me" aria-label="Twitter">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a href="https://linkedin.com/in/david-burkhardt" target="_blank" rel="me">
+              <a href="https://linkedin.com/in/david-burkhardt" target="_blank" rel="me" aria-label="Linkedin">
                 <i class="fa fa-linkedin"></i>
               </a>
             </div>
@@ -1119,7 +1124,7 @@
           onExpand: function () {
             // check if new images exist to lazyload
             window.observer.observe();
-          }
+          },
         });
       })();
     </script>
